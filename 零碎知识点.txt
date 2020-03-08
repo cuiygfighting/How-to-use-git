@@ -1,0 +1,12 @@
+1.Git追踪的是修改，而不是文件
+2.cat catalogname用于在Git Bash里显示文件内容
+3.pwd显示当前目录
+   cd ..返回上一级,后面有空格 
+   cd filejianame：可查看文件夹有哪些文件
+4.git reset HEAD <file>可以把暂存区的修改撤销掉（unstage），重新放回工作区
+   git reset --hard commit_id用于切换版本
+5.删除文件问题
+	rm file:只是在工作区删除文件
+	git rm file然后git commit -m:在版本库删除文件
+	若是删错了，用checkout从版本库恢复
+6.Git对文件名不区分大小写
