@@ -18,3 +18,4 @@
 11.若是在本地有了新的commit，且远端也有了新的commit，那么无法直接把本地修改提交到远端，需要先pull，把远端的commit接到本地commit之前的节点之后，然后手动修改，生成新的commit，最后用push提交。(在提交前可以用rebase把这次冲突在本地造成的分叉提交历史整理成直线)
 12.在github上直接clone别人的仓库到本地，在本地提交后是推送不到远程的，需要用pull request。一般先fork为自己的仓库，在clone到本地
 13.取消本地目录下关联的远程库：git remote remove origin
+14.git add *  将目录里的所有文件提交到暂存区后
