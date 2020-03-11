@@ -3,6 +3,10 @@
 3.pwd显示当前目录
    cd ..返回上一级,后面有空格 
    cd filejianame：可查看文件夹有哪些文件
+   cd 或者cd ~：切换到用户主目录
+   cd /:切换到根目录
+   cd ./:相对引用当前目录
+   cd -:在最近两次目录之间来回切换
 4.git reset HEAD <file>可以把暂存区的修改撤销掉（unstage），重新放回工作区
    git reset --hard commit_id用于切换版本
 5.删除文件问题
