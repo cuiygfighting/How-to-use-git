@@ -17,7 +17,7 @@
 	rm file:只是在工作区删除文件
 	git rm file然后git commit -m:在版本库删除文件
 	若是删错了，用checkout从版本库恢复
-6.Git对文件名不区分大小写,可以有-,可以有中文字符，但不能有空格
+6.Git对文件名不区分大小写,可以有-,可以有中文字符，但不能有空格。但对于既有中文又有英文字母的名称区分其中字母的大小写.
 7.git add file_1 file_2 file_3可以一次添加多个文件，文件名之间用空格隔开
    git add catalog_name可以一次性文件夹中的所有文件添加到暂存区
 
@@ -31,3 +31,5 @@
 13.取消本地目录下关联的远程库：git remote remove origin
 14.git add *  将目录里的所有文件提交到暂存区后
 15.git可以自动识别子文件夹中文件的改动，但是git add或者git checkout等命令必须加上子文件加的文字，如git add zicatalog/finame
+
+16.clear用于删除git bash窗口里的内容
