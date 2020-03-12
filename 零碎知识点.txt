@@ -23,4 +23,4 @@
 12.在github上直接clone别人的仓库到本地，在本地提交后是推送不到远程的，需要用pull request。一般先fork为自己的仓库，在clone到本地
 13.取消本地目录下关联的远程库：git remote remove origin
 14.git add *  将目录里的所有文件提交到暂存区后
-15.
+15.git可以自动识别子文件夹中文件的改动，但是git add或者git checkout等命令必须加上子文件加的文字，如git add zicatalog/finame
