@@ -45,3 +45,6 @@
 15.git可以自动识别子文件夹中文件的改动，但是git add或者git checkout等命令必须加上子文件加的文字，如git add zicatalog/finame
 
 16.clear用于删除git bash窗口里的内容
+
+
+
