@@ -46,5 +46,7 @@
 
 16.clear用于删除git bash窗口里的内容
 
+17.git 更改文件名：git mv 旧文件名 新文件名。之后直接commit即可
+
 
 
