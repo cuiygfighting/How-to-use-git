@@ -48,7 +48,19 @@
 
 17.git 更改文件名：git mv 旧文件名 新文件名。之后直接commit即可
 
-18.
+18.git add或git status发现不了文件夹中git init之前就存在的文件解决方法:
+
+>强行添加文件:git add -f xxx.js
+>
+>若是还不行，把文件的绝对路径加上去再试试：git add -f  /Users/cyril/Documents/cyril/budget/xxx/..chunck.jx
+
+对于空文件夹，无论是git init之前新建的还是之后新建的都发现不了，必须有文件才能追踪到这个文件夹。
+
+19.用git remote add origin ***关联了远程仓库后，并没有建立本地分支和远程分支的关联，还需要git branch --set-uostream-name origin/远程库名，将本地分支和远程分支关联起来。
+
+一般远程独立建立的仓库(已经有了commit)和本地独立建立的仓库是不能直接git pull的，git会认为两个仓库没有关联拒接合并，这时可以用git pull origin [master](https://www.centos.bz/tag/master/) --allow-unrelated-histories强行合并。
+
+一般将本地仓库和远程关联，可以git clone远程仓库；或者远程建立一个空仓库(不要在建立时创建README文件，即不要有commit)，然后先关联仓库在关联分支，就可以正常git pull或git push了。
 
 
 
